@@ -32,6 +32,12 @@ Once the `eslint-config-cantonjs` package is installed, you can use it by specif
 - `extends: "cantonjs/react"` `base` + `react`
 
 
+## Related Projects
+
+- [eslint-config-cantonjs-resolver](https://github.com/cantonjs/eslint-config-cantonjs-resolver)
+
+
+
 ## License
 
 MIT © Cantonjs
