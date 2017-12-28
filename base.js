@@ -62,7 +62,4 @@ module.exports = {
 		}],
 		'spaced-comment': 0,
 	},
-	'globals': [
-		'__DEV__',
-	],
 };
