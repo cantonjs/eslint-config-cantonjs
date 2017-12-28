@@ -2,13 +2,10 @@
   "name": "eslint-config-cantonjs",
   "version": "0.0.0",
   "description": "ESLint shareable config for the Cantonjs JavaScript style guide",
-  "main": "index.js",
+  "main": "base.js",
   "files": [
     "base.js",
-    "base-resolve.js",
     "react.js",
-    "react-resolve.js",
-    "index.js",
     "LICENSE",
     "README.md"
   ],
@@ -20,7 +17,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "node test.js"
+    "test": "node test/test.js"
   },
   "peerDependencies": {
     "eslint": "^4.0.0"
@@ -31,12 +28,11 @@
   "dependencies": {
     "babel-eslint": "^8.1.2",
     "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-import-resolver-babel-module": "^4.0.0",
-    "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jest": "^21.5.0",
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.5.1",
     "eslint-plugin-standard": "^3.0.1"
   }
 }

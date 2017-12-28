@@ -1,4 +1,3 @@
-'use strict';
 
 module.exports = {
 	'parser': 'babel-eslint',
@@ -6,6 +5,9 @@ module.exports = {
 		'standard',
 		'plugin:promise/recommended',
 		'plugin:import/recommended',
+	],
+	'plugins': [
+		'import',
 	],
 	'env': {
 		'browser': true,
@@ -30,7 +32,7 @@ module.exports = {
 		'camelcase': 0,
 		'comma-dangle': [1, 'always-multiline'],
 		'indent': [2, 'tab', {
-			'SwitchCase': 1
+			'SwitchCase': 1,
 		}],
 		'max-len': [1, {
 			'code': 80,
@@ -60,7 +62,7 @@ module.exports = {
 		}],
 		'spaced-comment': 0,
 	},
-	'globals': {
-		'__DEV__': true,
-	},
+	'globals': [
+		'__DEV__',
+	],
 };

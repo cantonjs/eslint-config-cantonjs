@@ -29,9 +29,7 @@ Once the `eslint-config-cantonjs` package is installed, you can use it by specif
 
 - `extends: "cantonjs"` basic usage
 - `extends: "cantonjs/base"` the same with `extends: "cantonjs"`
-- `extends: "cantonjs/base-resolve"` `base` + [import/resolver](https://github.com/benmosher/eslint-plugin-import)
 - `extends: "cantonjs/react"` `base` + `react`
-- `extends: "cantonjs/react-resolve"` `base` + `react` + [import/resolver](https://github.com/benmosher/eslint-plugin-import)
 
 
 ## License
