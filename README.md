@@ -1,5 +1,7 @@
 # eslint-config-cantonjs
 
+[![Build Status](https://travis-ci.org/cantonjs/eslint-config-cantonjs.svg?branch=master)](https://travis-ci.org/cantonjs/eslint-config-cantonjs)
+
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the Cantonjs
 
 
