@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cantonjs",
-  "version": "0.0.0-0",
+  "version": "0.0.0-1",
   "description": "ESLint shareable config for the Cantonjs JavaScript style guide",
   "main": "base.js",
   "files": [
@@ -14,9 +14,9 @@
   },
   "repository": "https://github.com/cantonjs/eslint-config-cantonjs",
   "keywords": [
-  	"eslint",
-  	"lint",
-  	"javascript"
+    "eslint",
+    "lint",
+    "javascript"
   ],
   "author": "Cap32",
   "license": "MIT",
