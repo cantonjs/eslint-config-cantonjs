@@ -22,7 +22,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js",
+    "preversion": "npm test"
   },
   "peerDependencies": {
     "eslint": "^4.0.0"
