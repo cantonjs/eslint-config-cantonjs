@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-cantonjs",
+  "version": "0.0.0",
+  "description": "ESLint shareable config for the Cantonjs JavaScript style guide",
+  "main": "index.js",
+  "files": [
+    "base.js",
+    "base-resolve.js",
+    "react.js",
+    "react-resolve.js",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": "https://github.com/cantonjs/eslint-config-cantonjs",
+  "author": "Cap32",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "node test.js"
+  },
+  "peerDependencies": {
+    "eslint": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.1.2",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.5.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
