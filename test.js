@@ -6,7 +6,7 @@ const conf = require('./index');
 const pkg = require('./package.json');
 
 // The source files to lint.
-const repoFiles = pkg.files;
+const repoFiles = pkg.files.filter((file) => /\.js$/.test(file));
 
 // Use the rules defined in this repo to test against.
 const eslintOpts = {
