@@ -31,7 +31,13 @@ module.exports = {
 		'arrow-parens': [1, 'always'],
 		'brace-style': 0,
 		'camelcase': 0,
-		'comma-dangle': [1, 'always-multiline'],
+		'comma-dangle': [1, {
+			'arrays': 'always-multiline',
+			'objects': 'always-multiline',
+			'imports': 'always-multiline',
+			'exports': 'always-multiline',
+			'functions': 'always-multiline',
+		}],
 		'indent': [2, 'tab', {
 			'SwitchCase': 1,
 		}],
