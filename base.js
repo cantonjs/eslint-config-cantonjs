@@ -29,7 +29,9 @@ module.exports = {
 		'promise/always-return': 0,
 
 		'arrow-parens': [1, 'always'],
-		'brace-style': 0,
+		'brace-style': [1, 'stroustrup', {
+			'allowSingleLine': true,
+		}],
 		'camelcase': 0,
 		'comma-dangle': [1, {
 			'arrays': 'always-multiline',
