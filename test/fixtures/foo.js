@@ -1,3 +1,5 @@
+/* global fork */
+
 import eslint from 'eslint';
 import assert from 'assert';
 import base from '../../base';
@@ -7,7 +9,14 @@ const repoFiles = [
 	'./test/fixtures/foo.js',
 ];
 
+///
+
+/**
+ * comments
+ */
 const test = function test(name, conf) {
+	console.log(fork);
+
 	// Use the rules defined in this repo to test against.
 	const eslintOpts = Object.assign({}, { useEslintrc: false }, conf);
 

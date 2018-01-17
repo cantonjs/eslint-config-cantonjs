@@ -43,6 +43,10 @@ module.exports = {
 		'indent': [2, 'tab', {
 			'SwitchCase': 1,
 		}],
+		'lines-around-comment': [1, {
+			beforeBlockComment: true,
+			beforeLineComment: true,
+		}],
 		'max-len': [1, {
 			'code': 80,
 			'tabWidth': 2,
@@ -69,6 +73,9 @@ module.exports = {
 			'anonymous': 'always',
 			'named': 'never',
 		}],
-		'spaced-comment': 0,
+		'spaced-comment': [1, 'always', {
+			'markers': ['*'],
+			'exceptions': ['/', '+', '-'],
+		}],
 	},
 };
