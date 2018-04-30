@@ -4,11 +4,10 @@ module.exports = {
 	parser: "babel-eslint",
 	extends: [
 		"standard",
-		"plugin:babel/recommended",
 		"plugin:promise/recommended",
 		"plugin:import/recommended"
 	],
-	plugins: ["import"],
+	plugins: ["babel", "import"],
 	env: {
 		browser: true,
 		node: true,
@@ -17,6 +16,11 @@ module.exports = {
 		jest: true
 	},
 	rules: {
+		"babel/new-cap": 1,
+		"babel/no-invalid-this": 1,
+		"babel/semi": 1,
+		"babel/no-unused-expressions": 1,
+
 		"import/no-absolute-path": 2,
 		"import/no-extraneous-dependencies": 2,
 		"import/no-mutable-exports": 2,
