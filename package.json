@@ -1,44 +1,45 @@
 {
-  "name": "eslint-config-cantonjs",
-  "version": "0.1.0",
-  "description": "ESLint shareable config for the Cantonjs JavaScript style guide",
-  "main": "base.js",
-  "files": [
-    "base.js",
-    "react.js",
-    "LICENSE",
-    "README.md"
-  ],
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "repository": "https://github.com/cantonjs/eslint-config-cantonjs",
-  "keywords": [
-    "eslint",
-    "lint",
-    "javascript"
-  ],
-  "author": "Cap32",
-  "license": "MIT",
-  "private": false,
-  "scripts": {
-    "test": "node test/test.js",
-    "preversion": "npm test"
-  },
-  "peerDependencies": {
-    "eslint": "^4.0.0"
-  },
-  "devDependencies": {
-    "eslint": "^4.14.0"
-  },
-  "dependencies": {
-    "babel-eslint": "^8.1.2",
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.5.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-react": "^7.5.1",
-    "eslint-plugin-standard": "^3.0.1"
-  }
+	"name": "eslint-config-cantonjs",
+	"version": "0.1.0",
+	"description":
+		"ESLint shareable config for the Cantonjs JavaScript style guide",
+	"main": "base.js",
+	"files": ["base.js", "react.js", "LICENSE", "README.md"],
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"repository": "https://github.com/cantonjs/eslint-config-cantonjs",
+	"keywords": ["eslint", "lint", "javascript"],
+	"author": "Cap32",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"test": "node test/test.js",
+		"preversion": "npm test"
+	},
+	"peerDependencies": {
+		"eslint": "^4.18.0",
+		"eslint-config-standard": "^11.0.0",
+		"eslint-plugin-babel": "^5.1.0",
+		"eslint-plugin-import": "^2.11.0",
+		"eslint-plugin-jest": "^21.15.1",
+		"eslint-plugin-node": "^6.0.1",
+		"eslint-plugin-promise": "^3.7.0",
+		"eslint-plugin-react": "^7.7.0",
+		"eslint-plugin-standard": "^3.1.0"
+	},
+	"devDependencies": {
+		"eslint": "^4.19.1",
+		"eslint-config-standard": "^11.0.0",
+		"eslint-plugin-babel": "^5.1.0",
+		"eslint-plugin-import": "^2.11.0",
+		"eslint-plugin-jest": "^21.15.1",
+		"eslint-plugin-node": "^6.0.1",
+		"eslint-plugin-promise": "^3.7.0",
+		"eslint-plugin-react": "^7.7.0",
+		"eslint-plugin-standard": "^3.1.0"
+	},
+	"dependencies": {
+		"babel-eslint": "^8.1.2"
+	}
 }

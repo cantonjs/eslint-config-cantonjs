@@ -4,13 +4,11 @@
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the Cantonjs
 
-
 ## Installation
 
 ```
-$ npm install --save-dev eslint eslint-config-cantonjs
+$ npm install --save-dev eslint eslint-config-cantonjs eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
 ```
-
 
 ## Usage
 
@@ -27,16 +25,13 @@ Once the `eslint-config-cantonjs` package is installed, you can use it by specif
 
 ## Configures / Extends
 
-- `extends: "cantonjs"` basic usage
-- `extends: "cantonjs/base"` the same with `extends: "cantonjs"`
-- `extends: "cantonjs/react"` `base` + `react`
-
+* `extends: "cantonjs"` basic usage
+* `extends: "cantonjs/base"` the same with `extends: "cantonjs"`
+* `extends: "cantonjs/react"` `base` + `react`
 
 ## Related Projects
 
-- [eslint-config-cantonjs-resolver](https://github.com/cantonjs/eslint-config-cantonjs-resolver)
-
-
+* [eslint-config-cantonjs-resolver](https://github.com/cantonjs/eslint-config-cantonjs-resolver)
 
 ## License
 
