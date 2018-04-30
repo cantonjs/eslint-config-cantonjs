@@ -1,6 +1,8 @@
 # eslint-config-cantonjs
 
 [![Build Status](https://travis-ci.org/cantonjs/eslint-config-cantonjs.svg?branch=master)](https://travis-ci.org/cantonjs/eslint-config-cantonjs)
+[![Dependencies](https://david-dm.org/cantonjs/eslint-config-cantonjs.svg)](https://david-dm.org/cantonjs/eslint-config-cantonjs)
+[![License](https://img.shields.io/badge/license-MIT_License-brightgreen.svg?style=flat)](https://github.com/cantonjs/eslint-config-cantonjs/blob/master/LICENSE)
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the Cantonjs
 
