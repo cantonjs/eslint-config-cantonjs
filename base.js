@@ -52,13 +52,6 @@ module.exports = {
 				SwitchCase: 1
 			}
 		],
-		"lines-around-comment": [
-			1,
-			{
-				beforeBlockComment: true,
-				beforeLineComment: true
-			}
-		],
 		"max-len": [
 			1,
 			{
