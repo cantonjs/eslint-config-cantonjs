@@ -8,8 +8,16 @@
 
 ## Installation
 
+### NPM
+
 ```
 $ npm install --save-dev eslint eslint-config-cantonjs eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
+```
+
+### Yarn
+
+```
+$ yarn add --dev eslint eslint-config-cantonjs eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
 ```
 
 ## Usage
