@@ -10,7 +10,7 @@
 		"README.md"
 	],
 	"engines": {
-		"node": ">=4"
+		"node": "^6.14.0 || ^8.10.0 || >=9.10.0"
 	},
 	"repository": "https://github.com/cantonjs/eslint-config-cantonjs",
 	"keywords": [
@@ -25,24 +25,15 @@
 		"test": "node test/test.js",
 		"preversion": "npm test"
 	},
-	"peerDependencies": {
-		"eslint": "^3.19.0 || ^4.0.0",
-		"eslint-config-standard": ">=10.0.0",
-		"eslint-plugin-import": "^2.0.0",
-		"eslint-plugin-jest": "^21.15.0",
-		"eslint-plugin-node": "^6.0.0",
-		"eslint-plugin-promise": "^3.5.0",
-		"eslint-plugin-react": "^7.7.0",
-		"eslint-plugin-standard": "^3.0.0"
-	},
+	"peerDependencies": {},
 	"devDependencies": {
-		"eslint": "^4.19.1",
+		"eslint": "^5.1.0",
 		"eslint-config-standard": "^11.0.0",
-		"eslint-plugin-import": "^2.11.0",
-		"eslint-plugin-jest": "^21.15.1",
-		"eslint-plugin-node": "^6.0.1",
-		"eslint-plugin-promise": "^3.7.0",
-		"eslint-plugin-react": "^7.7.0",
+		"eslint-plugin-import": "^2.13.0",
+		"eslint-plugin-jest": "^21.18.0",
+		"eslint-plugin-node": "^7.0.1",
+		"eslint-plugin-promise": "^3.8.0",
+		"eslint-plugin-react": "^7.10.0",
 		"eslint-plugin-standard": "^3.1.0"
 	},
 	"dependencies": {
