@@ -15,6 +15,11 @@ module.exports = {
 		mocha: true,
 		jest: true
 	},
+	parserOptions: {
+		ecmaFeatures: {
+			legacyDecorators: true
+		}
+	},
 	rules: {
 		"import/no-absolute-path": 2,
 		"import/no-extraneous-dependencies": 2,
